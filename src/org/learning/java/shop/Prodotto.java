@@ -59,4 +59,8 @@ public class Prodotto {
         this.price = newPrice;
     }
 
+    public String toString(){
+        return getName() + " " + getDescription() + " "  + getPrice();
+    }
+
 }

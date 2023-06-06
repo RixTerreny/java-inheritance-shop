@@ -17,4 +17,9 @@ public class Smartphone extends Prodotto{
     public int getRam() {
         return ram;
     }
+
+    @Override
+    public String toString(){
+        return super.toString() + " IMEI: " + getImeiCode() + " Ram: " + getRam();
+    }
 }
