@@ -15,8 +15,8 @@ public class Main {
 //        System.out.println("Codice IMEI: " + smartphone1.getImeiCode());
         System.out.println(smartphone1.toString());
 
-        Televisori televisor1 = new Televisori("Sony","Oled",1220, 50, "no");
-        System.out.println(televisor1.toString());
+        Televisori television1 = new Televisori("Sony","Oled",1220, 50, "no");
+        System.out.println(television1.toString());
 
         Cuffie headphones1 = new Cuffie("JBL", "Potenti", 29.99, "nere", "si");
         System.out.println(headphones1.toString());
